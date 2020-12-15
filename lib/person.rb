@@ -6,7 +6,7 @@ class Person
                 :wrist_size, :glove_size, :pant_length, :pant_width
 def initialize(elements)
   
-  elements.each {|key,value | self.send(("#{key}="), value)} 
+  elements.each {|key,value | self.key = value}
    
    
   end
